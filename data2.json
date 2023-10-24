@@ -1,0 +1,734 @@
+{
+    "hi": {
+        "description": "hi,this is web dev bot",
+        "example": "😚"
+      },
+      "css": {
+        "description":"CSS is the language we use to style an HTML document.",
+        "example": "body {\n background-color: lightblue;\n }"
+      },
+      
+      "how are you": {
+        "description": "i am fine",
+        "example": "what about you"
+      },
+    "html": {
+        "description": "The root element of an HTML document.",
+        "example": "<html>\n  ...\n</html>"
+      },
+      "head": {
+        "description": "Contains metadata about the HTML document.",
+        "example": "<head>\n  <title>My Web Page</title>\n  ...\n</head>"
+      },
+      "body": {
+        "description": "Contains the visible content of the HTML document.",
+        "example": "<body>\n  <h1>Welcome to my website!</h1>\n  <p>This is a paragraph.</p>\n  ...\n</body>"
+      },
+      "h1": {
+        "description": "Represents a top-level heading.",
+        "example": "<h1>My Heading</h1>"
+      },
+      "br": {
+        "description": "Inserts a single line break.",
+        "example": "Hello<br>World"
+      },
+      "tr": {
+        "description": "Defines a row in an HTML table.",
+        "example": "<tr>\n  <td>Cell 1</td>\n  <td>Cell 2</td>\n</tr>"
+      },
+      "th": {
+        "description": "Defines a header cell in an HTML table.",
+        "example": "<th>Header Cell</th>"
+      },
+      "ul": {
+        "description": "Defines an unordered (bulleted) list.",
+        "example": "<ul>\n  <li>Item 1</li>\n  <li>Item 2</li>\n</ul>"
+      },
+      "li": {
+        "description": "Represents an item in a list.",
+        "example": "<li>List Item</li>"
+      },
+    "h1": {
+      "description": "Defines a top-level heading",
+      "example": "<h1>This is a heading</h1>"
+    },
+    "h2": {
+      "description": "Defines a second-level heading",
+      "example": "<h2>This is a subheading</h2>"
+    },
+    "h3": {
+      "description": "Defines a third-level heading",
+      "example": "<h3>This is a sub-subheading</h3>"
+    },
+    "p": {
+      "description": "Defines a paragraph",
+      "example": "<p>This is a paragraph.</p>"
+    },
+    "a": {
+      "description": "Defines a hyperlink",
+      "example": "<a href=\"https://www.example.com\">Visit Example</a>"
+    },
+    "img": {
+      "description": "Defines an image",
+      "example": "<img src=\"image.jpg\" alt=\"Image\">"
+    },
+    "ul": {
+      "description": "Defines an unordered list",
+      "example": "<ul><li>Item 1</li><li>Item 2</li></ul>"
+    },
+    "ol": {
+      "description": "Defines an ordered list",
+      "example": "<ol><li>Item 1</li><li>Item 2</li></ol>"
+    },
+    "li": {
+      "description": "Defines a list item",
+      "example": "<li>Item 1</li>"
+    },
+    "div": {
+      "description": "Defines a division or container",
+      "example": "<div>This is a division.</div>"
+    },
+    "span": {
+      "description": "Defines an inline container",
+      "example": "<span>This is an inline container.</span>"
+    },
+    "table": {
+      "description": "Defines a table",
+      "example": "<table><tr><td>Cell 1</td><td>Cell 2</td></tr></table>"
+    },
+    "tr": {
+      "description": "Defines a table row",
+      "example": "<tr><td>Cell 1</td><td>Cell 2</td></tr>"
+    },
+    "td": {
+      "description": "Defines a table cell",
+      "example": "<td>Cell content</td>"
+    },
+    "form": {
+      "description": "Defines an HTML form",
+      "example": "<form action=\"/submit\" method=\"post\"><input type=\"text\" name=\"username\"><input type=\"submit\" value=\"Submit\"></form>"
+    },
+    "input": {
+      "description": "Defines an input field",
+      "example": "<input type=\"text\" name=\"username\">"
+    },
+    "button": {
+      "description": "Defines a clickable button",
+      "example": "<button>Click me</button>"
+    },
+    "label": {
+      "description": "Defines a label for a form element",
+      "example": "<label for=\"username\">Username:</label>"
+    },
+    "textarea": {
+      "description": "Defines a multi-line input control",
+      "example": "<textarea rows=\"4\" cols=\"50\">Enter text here...</textarea>"
+    },
+    "select": {
+      "description": "Defines a drop-down list",
+      "example": "<select><option value=\"option1\">Option 1</option><option value=\"option2\">Option 2</option></select>"
+    },
+    "option": {
+      "description": "Defines an option in a drop-down list",
+      "example": "<option value=\"option1\">Option 1</option>"
+    },
+  "color": {
+    "description": "Specifies the text color",
+    "example": "color: blue;"
+  },
+  "font-size": {
+    "description": "Specifies the font size",
+    "example": "font-size: 16px;"
+  },
+  "background-color": {
+    "description": "Specifies the background color",
+    "example": "background-color: #f1f1f1;"
+  },
+  "margin": {
+    "description": "Specifies the margin around an element",
+    "example": "margin: 10px;"
+  },
+  "padding": {
+    "description": "Specifies the padding within an element",
+    "example": "padding: 10px;"
+  },
+  "border": {
+    "description": "Specifies the border around an element",
+    "example": "border: 1px solid black;"
+  },
+  "display": {
+    "description": "Specifies the display behavior of an element",
+    "example": "display: block;"
+  },
+  "position": {
+    "description": "Specifies the positioning of an element",
+    "example": "position: relative;"
+  },
+  "float": {
+    "description": "Specifies the horizontal alignment of an element",
+    "example": "float: left;"
+  },
+  "text-align": {
+    "description": "Specifies the alignment of text within an element",
+    "example": "text-align: center;"
+  },
+     "color": {
+      "description": "Specifies the text color",
+      "example": "color: blue;"
+    },
+    "font-size": {
+      "description": "Specifies the font size",
+      "example": "font-size: 16px;"
+    },
+    "background-color": {
+      "description": "Specifies the background color",
+      "example": "background-color: #f1f1f1;"
+    },
+    "margin": {
+      "description": "Specifies the margin around an element",
+      "example": "margin: 10px;"
+    },
+    "padding": {
+      "description": "Specifies the padding within an element",
+      "example": "padding: 10px;"
+    },
+    "border": {
+      "description": "Specifies the border around an element",
+      "example": "border: 1px solid black;"
+    },
+    "display": {
+      "description": "Specifies the display behavior of an element",
+      "example": "display: block;"
+    },
+    "position": {
+      "description": "Specifies the positioning of an element",
+      "example": "position: relative;"
+    },
+    "float": {
+      "description": "Specifies the horizontal alignment of an element",
+      "example": "float: left;"
+    },
+    "text-align": {
+      "description": "Specifies the alignment of text within an element",
+      "example": "text-align: center;"
+    },
+    "width": {
+          "description": "Specifies the width of an element",
+          "example": "width: 300px;"
+        },
+        "height": {
+          "description": "Specifies the height of an element",
+          "example": "height: 200px;"
+        },
+        "background-image": {
+          "description": "Specifies the background image for an element",
+          "example": "background-image: url('image.jpg');"
+        },
+        "background-repeat": {
+          "description": "Specifies how the background image should be repeated",
+          "example": "background-repeat: repeat-x;"
+        },
+        "background-position": {
+          "description": "Specifies the position of the background image",
+          "example": "background-position: center;"
+        },
+        "font-family": {
+          "description": "Specifies the font family for text",
+          "example": "font-family: Arial, sans-serif;"
+        },
+        "font-weight": {
+          "description": "Specifies the font weight for text",
+          "example": "font-weight: bold;"
+        },
+        "text-decoration": {
+          "description": "Specifies the decoration for text",
+          "example": "text-decoration: underline;"
+        },
+        "text-transform": {
+          "description": "Specifies the capitalization of text",
+          "example": "text-transform: uppercase;"
+        },
+        "box-shadow": {
+          "description": "Specifies a shadow effect for an element",
+          "example": "box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);"
+        },
+        "border-radius": {
+          "description": "Specifies the border radius of an element",
+          "example": "border-radius: 5px;"
+        },
+        "opacity": {
+          "description": "Specifies the opacity of an element",
+          "example": "opacity: 0.5;"
+        },
+        "transition": {
+          "description": "Specifies the transition effect for an element",
+          "example": "transition: width 0.5s ease-in-out;"
+        },
+        "animation": {
+          "description": "Specifies an animation for an element",
+          "example": "animation: slide 2s infinite;"
+        },
+        "transform": {
+          "description": "Specifies a 2D or 3D transformation for an element",
+          "example": "transform: rotate(45deg);"
+        },
+    
+         "margin": {
+              "description": "Specifies the margin around an element",
+              "example": "margin: 10px;"
+            },
+            "margin-top": {
+              "description": "Specifies the top margin of an element",
+              "example": "margin-top: 10px;"
+            },
+            "margin-right": {
+              "description": "Specifies the right margin of an element",
+              "example": "margin-right: 10px;"
+            },
+            "margin-bottom": {
+              "description": "Specifies the bottom margin of an element",
+              "example": "margin-bottom: 10px;"
+            },
+            "margin-left": {
+              "description": "Specifies the left margin of an element",
+              "example": "margin-left: 10px;"
+            },
+            "padding": {
+              "description": "Specifies the padding around an element",
+              "example": "padding: 10px;"
+            },
+            "padding-top": {
+              "description": "Specifies the top padding of an element",
+              "example": "padding-top: 10px;"
+            },
+            "padding-right": {
+              "description": "Specifies the right padding of an element",
+              "example": "padding-right: 10px;"
+            },
+            "padding-bottom": {
+              "description": "Specifies the bottom padding of an element",
+              "example": "padding-bottom: 10px;"
+            },
+            "padding-left": {
+              "description": "Specifies the left padding of an element",
+              "example": "padding-left: 10px;"
+            },
+            "border": {
+              "description": "Specifies the border of an element",
+              "example": "border: 1px solid #000;"
+            },
+            "border-width": {
+              "description": "Specifies the width of the border of an element",
+              "example": "border-width: 1px;"
+            },
+            "border-style": {
+              "description": "Specifies the style of the border of an element",
+              "example": "border-style: solid;"
+            },
+            "border-color": {
+              "description": "Specifies the color of the border of an element",
+              "example": "border-color: #000;"
+            },
+            "border-radius": {
+              "description": "Specifies the border radius of an element",
+              "example": "border-radius: 5px;"
+            },
+            "width": {
+              "description": "Specifies the width of an element",
+              "example": "width: 200px;"
+            },
+            "height": {
+              "description": "Specifies the height of an element",
+              "example": "height: 100px;"
+            },
+            "box-sizing": {
+              "description": "Specifies the box model used by an element",
+              "example": "box-sizing: border-box;"
+            },
+            
+            "display: flex": {
+                  "description": "Specifies that an element is a flex container",
+                  "example": "display: flex;"
+                },
+                "flex-direction": {
+                  "description": "Specifies the direction of flex items",
+                  "example": "flex-direction: row;"
+                },
+                "flex-wrap": {
+                  "description": "Specifies whether flex items should wrap or not",
+                  "example": "flex-wrap: wrap;"
+                },
+                "justify-content": {
+                  "description": "Specifies how flex items are horizontally aligned",
+                  "example": "justify-content: center;"
+                },
+                "align-items": {
+                  "description": "Specifies how flex items are vertically aligned",
+                  "example": "align-items: center;"
+                },
+                "align-content": {
+                  "description": "Specifies how flex lines are vertically aligned",
+                  "example": "align-content: space-between;"
+                },
+                "flex-grow": {
+                  "description": "Specifies how flex items grow to fill available space",
+                  "example": "flex-grow: 1;"
+                },
+                "flex-shrink": {
+                  "description": "Specifies how flex items shrink when there is not enough space",
+                  "example": "flex-shrink: 0;"
+                },
+                "flex-basis": {
+                  "description": "Specifies the initial size of a flex item",
+                  "example": "flex-basis: 100px;"
+                },
+                "order": {
+                  "description": "Specifies the order of flex items",
+                  "example": "order: 2;"
+                },
+    
+                "JavaScript Variables": {
+                      "description": "Declares and stores data values",
+                      "example": "var x = 5;"
+                    },
+                    "JavaScript Constants": {
+                      "description": "Declares read-only variables",
+                      "example": "const PI = 3.14;"
+                    },
+                    "JavaScript Data Types": {
+                      "description": "Specifies the type of data a variable can hold",
+                      "example": "var name = 'John';"
+                    },
+                    "JavaScript Operators": {
+                      "description": "Performs operations on variables and values",
+                      "example": "var sum = x + y;"
+                    },
+                    "JavaScript Functions": {
+                      "description": "Groups a set of statements to perform a specific task",
+                      "example": "function greet(name) { return 'Hello, ' + name + '!'; }"
+                    },
+                    "JavaScript Function Parameters": {
+                      "description": "Specifies input values for functions",
+                      "example": "function add(a, b) { return a + b; }"
+                    },
+                    "JavaScript Function Arguments": {
+                      "description": "Specifies values passed into functions",
+                      "example": "add(5, 10);"
+                    },
+                    "JavaScript Return Statement": {
+                      "description": "Specifies the value to be returned from a function",
+                      "example": "function multiply(a, b) { return a * b; }"
+                    },
+                    "JavaScript Arrow Functions": {
+                      "description": "Shorter syntax for writing functions",
+                      "example": "const multiply = (a, b) => a * b;"
+                    },
+                    "JavaScript Anonymous Functions": {
+                      "description": "Functions without a specified name",
+                      "example": "var sum = function(a, b) { return a + b; };"
+                    },
+                    "JavaScript Immediately Invoked Function Expressions (IIFE)": {
+                      "description": "Functions that are immediately executed",
+                      "example": "(function() { console.log('IIFE executed'); })();"
+                    },
+                  
+                    "POST Request": {
+                      "description": "Sends data to the server to create a new resource",
+                      "example": "fetch('/api/users', { method: 'POST', body: JSON.stringify(data) })"
+                    },
+                    "GET Request": {
+                      "description": "Retrieves data from the server",
+                      "example": "fetch('/api/users')"
+                    },
+                    "Request URL": {
+                      "description": "Specifies the URL to which the request is sent",
+                      "example": "fetch('/api/users')"
+                    },
+                    "Request Method": {
+                      "description": "Specifies the HTTP method to be used for the request",
+                      "example": "method: 'POST'"
+                    },
+                    "Request Headers": {
+                      "description": "Specifies additional headers to be included in the request",
+                      "example": "headers: { 'Content-Type': 'application/json' }"
+                    },
+                    "Request Body": {
+                      "description": "Specifies the data to be sent with the request",
+                      "example": "body: JSON.stringify(data)"
+                    },
+                    "Response": {
+                      "description": "Represents the response from the server",
+                      "example": "fetch('/api/users').then(response => { /* handle response */ })"
+                    },
+                    "Response Status Code": {
+                      "description": "Indicates the status of the HTTP response",
+                      "example": "200 OK"
+                    },
+                    "Response Headers": {
+                      "description": "Contains additional metadata about the response",
+                      "example": "response.headers.get('Content-Type')"
+                    },
+                    "Response Data": {
+                      "description": "Contains the data returned from the server",
+                      "example": "response.json()"
+                    },
+                    "AJAX": {
+                      "description": "Asynchronous JavaScript and XML - technique for making asynchronous requests",
+                      "example": "var xhr = new XMLHttpRequest();\nxhr.open('GET', '/api/users', true);\nxhr.send();"
+                    },
+                    
+                    "html": {
+                        "description": "The root element of an HTML document.",
+                        "example": "<html>\n  ...\n</html>"
+                      },
+                      "head": {
+                        "description": "Contains metadata about the HTML document.",
+                        "example": "<head>\n  <title>My Web Page</title>\n  ...\n</head>"
+                      },
+                      "JS Introduction": {
+                        "description": "Introduction to JavaScript.",
+                        "example": "JavaScript is a high-level programming language..."
+                      },
+                      "JS Where To": {
+                        "description": "Where to include JavaScript code.",
+                        "example": "JavaScript code can be included in HTML files..."
+                      },
+                      "JS Output": {
+                        "description": "Displaying output in JavaScript.",
+                        "example": "console.log('Hello, World!');"
+                      },
+                      "JS Statements": {
+                        "description": "JavaScript statements.",
+                        "example": "var x = 5;"
+                      },
+                      "JS Syntax": {
+                        "description": "JavaScript syntax.",
+                        "example": "if (condition) {\n  // code to execute\n} else {\n  // alternative code\n}"
+                      },
+                      "JS Comments": {
+                        "description": "JavaScript comments.",
+                        "example": "// This is a comment"
+                      },
+                      "JS Variables": {
+                        "description": "JavaScript variables.",
+                        "example": "var x = 5;"
+                      },
+                      "JS Let": {
+                        "description": "The let keyword in JavaScript.",
+                        "example": "let x = 5;"
+                      },
+                      "JS Const": {
+                        "description": "The const keyword in JavaScript.",
+                        "example": "const PI = 3.14;"
+                      },
+                      "JS Operators": {
+                        "description": "JavaScript operators.",
+                        "example": "x = y + z;"
+                      },
+                      "JS Arithmetic": {
+                        "description": "Arithmetic operators in JavaScript.",
+                        "example": "x = y + z;"
+                      },
+                      "JS Assignment": {
+                        "description": "Assignment operators in JavaScript.",
+                        "example": "x = y;"
+                      },
+                      "JS Data Types": {
+                        "description": "JavaScript data types.",
+                        "example": "var x = 'Hello';"
+                      },
+                      "JS Functions": {
+                        "description": "JavaScript functions.",
+                        "example": "function greet(name) {\n  console.log('Hello, ' + name + '!');\n}"
+                      },
+                      "JS Objects": {
+                        "description": "JavaScript objects.",
+                        "example": "var person = { name: 'John', age: 30 };"
+                      },
+                      "JS Events": {
+                        "description": "JavaScript events.",
+                        "example": "button.addEventListener('click', function() {\n  // code to execute\n});"
+                      },
+                      "JS Strings": {
+                        "description": "JavaScript strings.",
+                        "example": "var str = 'Hello, World!';"
+                      },
+                      "JS String Methods": {
+                        "description": "JavaScript string methods.",
+                        "example": "var message = 'Hello, World!';\nmessage.length;"
+                      },
+                      "JS String Search": {
+                        "description": "Searching within strings in JavaScript.",
+                        "example": "var str = 'Hello, World!';\nstr.indexOf('World');"
+                      },
+                      "JS String Templates": {
+                        "description": "Using string templates in JavaScript.",
+                        "example": "var name = 'John';\nvar greeting = `Hello, ${name}!`;"
+                      },
+                      "JS Numbers": {
+                        "description": "JavaScript numbers.",
+                        "example": "var num = 10;"
+                      },
+                      "JS BigInt": {
+                        "description": "BigInt data type in JavaScript.",
+                        "example": "var bigNum = 9007199254740991n;"
+                      },
+                      "JS Number Methods": {
+                        "description": "JavaScript number methods.",
+                        "example": "var num = 10;\nnum.toString();"
+                      },
+                      "JS Number Properties": {
+                        "description": "Properties of numbers in JavaScript.",
+                        "example": "Number.MAX_VALUE"
+                      },
+                      "JS Arrays": {
+                        "description": "JavaScript arrays.",
+                        "example": "var arr = [1, 2, 3];"
+                      },
+                      "JS Array Methods": {
+                        "description": "JavaScript array methods.",
+                        "example": "var arr = [1, 2, 3];\narr.length;"
+                      },
+                      "JS Array Sort": {
+                        "description": "Sorting arrays in JavaScript.",
+                        "example": "var arr = [3, 2, 1];\narr.sort();"
+                      },
+                      "JS Array Iteration": {
+                        "description": "Iterating over arrays in JavaScript.",
+                        "example": "var arr = [1, 2, 3];\narr.forEach(function(item) {\n  console.log(item);\n});"
+                      },
+                      "JS Math": {
+                        "description": "JavaScript Math object.",
+                        "example": "Math.random();"
+                      },
+                      "JS Boolean": {
+                        "description": "JavaScript Booleans.",
+                        "example": "var bool = true;"
+                      },
+                      "JS If Else": {
+                        "description": "Conditional statements in JavaScript.",
+                        "example": "if (condition) {\n  // code to execute\n} else {\n  // alternative code\n}"
+                      },
+                      "JS Switch": {
+                        "description": "Switch statement in JavaScript.",
+                        "example": "switch (expression) {\n  case value1:\n    // code to execute\n    break;\n  case value2:\n    // code to execute\n    break;\n  default:\n    // code to execute\n}"
+                      },
+                      "JS Loop For": {
+                        "description": "For loop in JavaScript.",
+                        "example": "for (var i = 0; i < 5; i++) {\n  // code to execute\n}"
+                      },
+                      "JS Loop For In": {
+                        "description": "For...in loop in JavaScript.",
+                        "example": "var obj = { prop1: value1, prop2: value2 };\nfor (var key in obj) {\n  // code to execute\n}"
+                      },
+                      "JS Loop For Of": {
+                        "description": "For...of loop in JavaScript.",
+                        "example": "var arr = [1, 2, 3];\nfor (var item of arr) {\n  // code to execute\n}"
+                      },
+                      "JS Loop While": {
+                        "description": "While loop in JavaScript.",
+                        "example": "while (condition) {\n  // code to execute\n}"
+                      },
+                      "JS Break": {
+                        "description": "Breaking out of loops in JavaScript.",
+                        "example": "for (var i = 0; i < 5; i++) {\n  if (i === 3) {\n    break;\n  }\n}"
+                      },
+                      "JS Iterables": {
+                        "description": "Iterable objects in JavaScript.",
+                        "example": "var iterable = [1, 2, 3];"
+                      },
+                      "JS Sets": {
+                        "description": "Sets in JavaScript.",
+                        "example": "var set = new Set([1, 2, 3]);"
+                      },
+                      "JS Maps": {
+                        "description": "Maps in JavaScript.",
+                        "example": "var map = new Map();\nmap.set(key, value);"
+                      },
+                      "JS typeof": {
+                        "description": "typeof operator in JavaScript.",
+                        "example": "typeof x;"
+                      },
+                      "JS Type Conversion": {
+                        "description": "Type conversion in JavaScript.",
+                        "example": "var str = String(10);"
+                      },
+                      "JS Bitwise": {
+                        "description": "Bitwise operators in JavaScript.",
+                        "example": "var result = 5 & 3;"
+                      },
+                      "JS RegExp": {
+                        "description": "Regular expressions in JavaScript.",
+                        "example": "/pattern/gi.test(str);"
+                      },
+                      "JS Precedence": {
+                        "description": "Operator precedence in JavaScript.",
+                        "example": "var result = 2 + 3 * 4;"
+                      },
+                      "JS Errors": {
+                        "description": "Handling errors in JavaScript.",
+                        "example": "try {\n  // code that may throw an error\n} catch (error) {\n  // code to handle the error\n}"
+                      },
+                      "JS Classes": {
+                        "description": "Classes in JavaScript.",
+                        "example": "class Person {\n  constructor(name) {\n    this.name = name;\n  }\n\n  greet() {\n    console.log('Hello, ' + this.name + '!');\n  }\n}"
+                      },
+                      "JS Modules": {
+                        "description": "Modules in JavaScript.",
+                        "example": "export function multiply(a, b) {\n  return a * b;\n}\n\nimport { multiply } from './math.js';"
+                      },
+                      "JS Objects": {
+                        "description": "JavaScript objects.",
+                        "example": "var person = { name: 'John', age: 30 };"
+                      },
+                      "JS Functions": {
+                        "description": "JavaScript functions.",
+                        "example": "function greet(name) {\n  console.log('Hello, ' + name + '!');\n}"
+                      },
+                      "JS RegExp": {
+                        "description": "Regular expressions in JavaScript.",
+                        "example": "var pattern = /abc/;"
+                      },
+                      "JS Precedence": {
+                        "description": "Operator precedence in JavaScript.",
+                        "example": "var result = 2 + 3 * 4;"
+                      },
+                      "JS Scope": {
+                        "description": "Variable scope in JavaScript.",
+                        "example": "function myFunction() {\n  var x = 5;\n}"
+                      },
+                      "JS Strict Mode": {
+                        "description": "Strict mode in JavaScript.",
+                        "example": "'use strict';\n// code that follows strict mode"
+                      },
+                      "JS Let": {
+                        "description": "The let keyword in JavaScript.",
+                        "example": "let x = 5;"
+                      },
+                      "JS Const": {
+                        "description": "The const keyword in JavaScript.",
+                        "example": "const PI = 3.14;"
+                      },
+                      "JS Event": {
+                        "description": "JavaScript events.",
+                        "example": "element.addEventListener('click', function() {\n  // code to execute\n});"
+                      },
+                      "JS Strings": {
+                        "description": "JavaScript strings.",
+                        "example": "var str = 'Hello, World!';"
+                      },
+                      "JS BigInt": {
+                        "description": "BigInt data type in JavaScript.",
+                        "example": "var bigNum = 9007199254740991n;"
+                      },
+                      "JS JSON": {
+                        "description": "Working with JSON data in JavaScript.",
+                        "example": "var json = '{\"name\": \"John\", \"age\": 30}';\nvar obj = JSON.parse(json);"
+                      },
+                      "JS Reserved Words": {
+                        "description": "Reserved words in JavaScript.",
+                        "example": "var function = 5;"
+                      }
+                    }
+                
+                               
